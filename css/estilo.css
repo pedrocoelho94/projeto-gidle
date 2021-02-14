@@ -1,0 +1,139 @@
+body{
+    background: #f8f2fe;
+    min-height: 75rem;
+    padding-top: 4.5rem; /*espaçamento no top para o funcionamento correto do nav fixed*/
+}
+
+.roxo{
+    background: #5C2F74;
+}
+
+.scroll-spy-site{
+    position: relative;
+    overflow: auto;
+    height: 400px;
+}
+
+#navbar-vertical a{
+    margin: 2px 0;
+}
+
+.btn-roxo {
+    color: #5C2F74;
+    border-color: rgba(92, 47, 116, 0.6);
+}
+  
+.btn-roxo:hover {
+    color: #fff;
+    background-color: #5C2F74;
+    border-color: rgba(92, 47, 116, 0.6);
+}
+
+.btn-roxo-invertido{
+    color: #fff;
+    background-color: #5C2F74;
+    border-color: rgba(92, 47, 116, 0.6);
+}
+.btn-roxo-invertido:hover  {
+    color: white;
+    background-color: #2a033f;
+    
+}
+
+.fonte-store{
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.borda-roxo{
+    border-color: rgba(92, 47, 116, 0.3);
+}
+
+.bg-claro{
+    background: rgba(92, 47, 116, 0.6);
+    margin: auto;
+    padding: 3px 0.2em;
+}
+
+.bg-branco{
+    background: white;
+}
+
+.texto-roxo{
+    color: rgb(92, 47, 116);
+}
+
+.bg-paralax{
+    background-image: url(../img/grupo-parallax.jpg);
+    opacity: 0.7;  
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#discografia .nav-pills .nav-link.active{
+    background: rgb(92, 47, 116);
+    color: white;
+}
+
+#discografia .nav-item a{
+    color: black;
+}
+
+#discografia .nav-item a:hover{
+    background: rgba(92, 47, 116, 0.6);
+    color: white;;
+}
+
+#discografia img{
+    object-fit: cover
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media(max-width: 767.98px) {
+    #capa .img-fluid {
+        height: 400px;
+        object-fit: cover; /*Aumentar a imagem sem deformar*/
+      }
+}
+
+@media (min-width: 768px) and (max-width: 941.98px){
+    #destaque .img-fluid {
+        height: 50vh;
+        object-fit: cover; /*Aumentar a imagem sem deformar*/
+      }
+}
+
+@media (max-width: 575.98px) {
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1921px) {
+    #capa .container-4k{
+        max-width: 1140px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
