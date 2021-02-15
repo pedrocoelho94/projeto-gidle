@@ -88,6 +88,27 @@ body{
     object-fit: cover
 }
 
+footer{
+    background: black;
+}
+
+footer i{
+    color: white;
+}
+
+footer i:hover{
+    color:rgb(92, 47, 116);
+}
+
+footer a{
+    color: white;
+    margin-right: 15px;
+}
+
+footer a:hover{
+    color: rgb(92, 47, 116);
+}
+
 /*Extra small devices (portrait phones, less than 576px)*/
 @media(max-width: 767.98px) {
     #capa .img-fluid {
